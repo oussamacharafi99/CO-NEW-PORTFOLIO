@@ -1557,6 +1557,14 @@ hr.fancy::before {
     line-height : var(--vspace-1_25);
     color       : var(--color-text-dark);
 }
+.attention-getter > span{
+    background: var(--color-1-darker);
+    color: black;
+}
+.timeline__timeframe{
+    background: var(--color-1-darker);
+    color: black !important;
+}
 
 .pull-quote {
     position   : relative;
@@ -2695,10 +2703,10 @@ img.u-pull-left {
     margin-top  : 0;
 }
 .text-huge-title > em{
-    color: transparent;
-    text-shadow: 0px 0px 5px white;
+    background: var(--color-1-darker);
+    color: black !important;
 }
-.text-huge-title > em:hover{
+/* .text-huge-title > em:hover{
     animation: anime 6s ease-in-out infinite;
 }
 @keyframes anime{
@@ -2707,7 +2715,7 @@ img.u-pull-left {
     }50%{
         text-shadow: 0px 0px 0px white;
     }
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * ## MailtoUI style overrides
@@ -3207,7 +3215,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 
 .s-intro {
-    --gutter               : 6rem;
+    /* --gutter               : 6rem; */
     --text-huge-multiplier : 1;
     position               : relative;
 }
