@@ -4036,6 +4036,8 @@ img.u-pull-left {
 
     .folio-list__item-pic {
         position : static;
+        width: 200px !important;
+        height: 200px;
     }
 
     .folio-list__item-pic img {

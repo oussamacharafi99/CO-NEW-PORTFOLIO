@@ -15,13 +15,13 @@
     * -------------------------------------------------- */
     const tl = anime.timeline( {
         easing: 'easeInOutCubic',
-        duration: 800,
+        duration: 400,
         autoplay: false
     })
     .add({
         targets: '#loader',
         opacity: 0,
-        duration: 1000,
+        duration: 400,
         begin: function(anim) {
             window.scrollTo(0, 0);
         }
@@ -197,7 +197,7 @@
                         opacity: [0, 1],
                         translateY: [100, 0],
                         delay: anime.stagger(400, {start: 200}),
-                        duration: 800,
+                        duration: 400,
                         easing: 'easeInOutCubic',
                         begin: function(anim) {
                             current.classList.add("ss-animated");
