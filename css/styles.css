@@ -4020,7 +4020,7 @@ img.u-pull-left {
     }
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
     .folio-list .column {
         flex  : none;
         width : 50%;
@@ -4036,7 +4036,7 @@ img.u-pull-left {
 
     .folio-list__item-pic {
         position : static;
-        width: 200px !important;
+        width: 200px;
         height: 200px;
     }
 
@@ -4054,7 +4054,7 @@ img.u-pull-left {
     .modal-popup__desc {
         padding : 0 var(--vspace-1) var(--vspace-0_25);
     }
-}
+} */
 
 
 
